@@ -79,7 +79,7 @@ namespace VRTK
         {
 
             // Keep waiting until we have a VR Device available
-            while (!VRDevice.isPresent)
+            while (!UnityEngine.XR.XRDevice.isPresent)
             {
                 yield return new WaitForSeconds(1.0f);
             }
@@ -88,13 +88,13 @@ namespace VRTK
 
             if (loaded == false)
             {
-                if (VRSettings.loadedDeviceName != "PlayStationVR")
+                if (UnityEngine.XR.XRSettings.loadedDeviceName != "PlayStationVR")
                 {
-                    VRSettings.LoadDeviceByName("PlayStationVR");
+                    UnityEngine.XR.XRSettings.LoadDeviceByName("PlayStationVR");
                 }
                 yield return null;
-                VRSettings.enabled = true;
-                VRSettings.renderScale = 1.4f;
+                UnityEngine.XR.XRSettings.enabled = true;
+                UnityEngine.XR.XRSettings.eyeTextureResolutionScale = 1.4f;
                 loaded = true;
             }
 #if UNITY_PS4 && !UNITY_EDITOR
@@ -318,7 +318,7 @@ namespace VRTK
         private void UnregisterDevices()
         {
             // We can only unregister tracked devices while in VR, or else a crash may occur
-            if (VRSettings.enabled)
+            if (UnityEngine.XR.XRSettings.enabled)
             {
                 UnregisterMoveControllers();
 

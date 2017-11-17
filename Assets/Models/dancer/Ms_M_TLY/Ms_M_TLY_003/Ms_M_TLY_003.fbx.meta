@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 4174218eeb25e27488977ea5eb21d2f5
+timeCreated: 1508317227
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cloth
+    100002: hair
+    100004: //RootNode
+    100006: skin
+    100008: Skirt
+    100010: Ms_M_TLY_003_cloth
+    100012: Ms_M_TLY_003_cloth_back
+    100014: Ms_M_TLY_003_hair
+    100016: Ms_M_TLY_003_skin
+    100018: Ms_M_TLY_003_Skirt
+    100020: Ms_M_TLY_003_Skirt_back
+    400000: cloth
+    400002: hair
+    400004: //RootNode
+    400006: skin
+    400008: Skirt
+    400010: Ms_M_TLY_003_cloth
+    400012: Ms_M_TLY_003_cloth_back
+    400014: Ms_M_TLY_003_hair
+    400016: Ms_M_TLY_003_skin
+    400018: Ms_M_TLY_003_Skirt
+    400020: Ms_M_TLY_003_Skirt_back
+    2300000: cloth
+    2300002: hair
+    2300004: skin
+    2300006: Skirt
+    2300008: Ms_M_TLY_003_cloth
+    2300010: Ms_M_TLY_003_cloth_back
+    2300012: Ms_M_TLY_003_hair
+    2300014: Ms_M_TLY_003_skin
+    2300016: Ms_M_TLY_003_Skirt
+    2300018: Ms_M_TLY_003_Skirt_back
+    3300000: cloth
+    3300002: hair
+    3300004: skin
+    3300006: Skirt
+    3300008: Ms_M_TLY_003_cloth
+    3300010: Ms_M_TLY_003_cloth_back
+    3300012: Ms_M_TLY_003_hair
+    3300014: Ms_M_TLY_003_skin
+    3300016: Ms_M_TLY_003_Skirt
+    3300018: Ms_M_TLY_003_Skirt_back
+    4300000: skin
+    4300002: Skirt
+    4300004: cloth
+    4300006: hair
+    4300008: Ms_M_TLY_003_Skirt
+    4300010: Ms_M_TLY_003_Skirt_back
+    4300012: Ms_M_TLY_003_cloth
+    4300014: Ms_M_TLY_003_cloth_back
+    4300016: Ms_M_TLY_003_hair
+    4300018: Ms_M_TLY_003_skin
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ms_M_Body_Skin
+    second: {fileID: 2100000, guid: 50c203328e9c0494191216ef5a28965e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ms_M_TLY_003_Cloth
+    second: {fileID: 2100000, guid: 77945babdc0a8e54781f93a04694bc6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ms_M_TLY_Hair
+    second: {fileID: 2100000, guid: 01a8f07d47cd42346b17632e3b07cf3c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

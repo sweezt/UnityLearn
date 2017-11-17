@@ -81,7 +81,7 @@ namespace VRTK
 
 
 
-            if (!VRDevice.isPresent)
+            if (!UnityEngine.XR.XRDevice.isPresent)
             {
                 return;
             }

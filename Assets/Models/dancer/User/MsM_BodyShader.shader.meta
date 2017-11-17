@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c65c794bc29e3ce4e923f6721c8d3624
+timeCreated: 1495608879
+licenseType: Pro
+ShaderImporter:
+  defaultTextures: []
+  userData: USER,FEMISSION_COLOR_HDR,FREFL_COLOR,FREFL_ROUGH,FBUMP,FSPECULAR,FSPECULAR_TOON,FSS_ALL_LIGHTS,FREFLECTION,F,FENABLE_WRAPPED_LIGHTING,FCUTOUT,FSPECULAR_MASK,FREFL_MASK,FMASK1,ffullforwardshadows,fhalfasview,faddshadow,KSHADER_TARGET:3.0,KEMISSION_MASK_CHANNEL:.a,KREFL_MASK_CHANNEL:.g,KSPEC_MASK:mask1,KSPEC_MASK_CHANNEL:.r,KREFL_MASK:mask1,KUV_mask1:Main
+    Tex UV,KUV_mask2:Main Tex UV,chC7CDD47A,cSM:30,cCT:pbs,cCF:TCP2_User_Unity5
+  assetBundleName: 
+  assetBundleVariant: 

@@ -77,14 +77,14 @@ public class SDK_PlayStationVRManager : MonoBehaviour
         }
 #endif
 
-        VRSettings.LoadDeviceByName("PlayStationVR");
+        UnityEngine.XR.XRSettings.LoadDeviceByName("PlayStationVR");
 
         // WORKAROUND: At the moment the device is created at the end of the frame so
         // changing almost any VR settings needs to be delayed until the next frame
         yield return null;
-        VRSettings.enabled = true;
-        VRSettings.renderScale = renderScale;
-        VRSettings.showDeviceView = showHmdViewOnMonitor;
+        UnityEngine.XR.XRSettings.enabled = true;
+        UnityEngine.XR.XRSettings.eyeTextureResolutionScale = renderScale;
+        UnityEngine.XR.XRSettings.showDeviceView = showHmdViewOnMonitor;
     }
 
     public void BeginShutdownVR()
@@ -94,14 +94,14 @@ public class SDK_PlayStationVRManager : MonoBehaviour
 
     IEnumerator ShutdownVR()
     {
-        VRSettings.LoadDeviceByName("None");
+        UnityEngine.XR.XRSettings.LoadDeviceByName("None");
 
         // WORKAROUND: At the moment the device is created at the end of the frame so
         // we need to wait a frame until the VR device is changed back to 'None', and
         // then reset the Main Camera's FOV and Aspect
         yield return null;
 
-        VRSettings.enabled = false;
+        UnityEngine.XR.XRSettings.enabled = false;
 #if UNITY_PS4
         // Unregister the callbacks needed to detect resetting the HMD
         Utility.onSystemServiceEvent -= OnSystemServiceEvent;
@@ -126,7 +126,7 @@ public class SDK_PlayStationVRManager : MonoBehaviour
     public void ToggleHMDViewOnMonitor(bool showOnMonitor)
     {
         showHmdViewOnMonitor = showOnMonitor;
-        VRSettings.showDeviceView = showHmdViewOnMonitor;
+        UnityEngine.XR.XRSettings.showDeviceView = showHmdViewOnMonitor;
     }
     /// <summary>
     /// Toggle the Extended Display Mode
@@ -134,12 +134,12 @@ public class SDK_PlayStationVRManager : MonoBehaviour
     public void ToggleHMDViewOnMonitor()
     {
         showHmdViewOnMonitor = !showHmdViewOnMonitor;
-        VRSettings.showDeviceView = showHmdViewOnMonitor;
+        UnityEngine.XR.XRSettings.showDeviceView = showHmdViewOnMonitor;
     }
 
     public void ChangeRenderScale(float scale)
     {
-        VRSettings.renderScale = scale;
+        UnityEngine.XR.XRSettings.eyeTextureResolutionScale = scale;
     }
 
 #if UNITY_PS4

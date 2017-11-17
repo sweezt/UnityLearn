@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: da029ef71ea766941b07e2b1ecab31d8
+timeCreated: 1493089883
+licenseType: Pro
+ShaderImporter:
+  defaultTextures: []
+  userData: USER,FEMISSION_COLOR_HDR,FREFL_COLOR,FREFL_ROUGH,FSPECULAR_TOON,FSS_ALL_LIGHTS,FCULL_FRONT,F,FCUTOUT,faddshadow,ffullforwardshadows,KSHADER_TARGET:3.0,KEMISSION_MASK_CHANNEL:.a,KREFL_MASK_CHANNEL:.a,chABB5582E,cSM:30,cCT:pbs,cCF:TCP2_User_Unity5
+  assetBundleName: actor/actorbase
+  assetBundleVariant: 
